@@ -13,8 +13,8 @@ namespace ThumbServer.My
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	internal sealed class InternalXmlHelper
 	{
-        private static IEnumerable<XElement> source; // Definido como colección de XElement
-        private static XName name; // Definido como XName
+        private static IEnumerable<XElement> source;
+        private static XName name; 
         [DebuggerNonUserCode]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[CompilerGenerated]
